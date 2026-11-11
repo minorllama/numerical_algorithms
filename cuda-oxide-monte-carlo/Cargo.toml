@@ -1,0 +1,12 @@
+[package]
+name = "cuda_oxide_examples"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+
+[dependencies]
+cuda-device = { git = "https://github.com/NVIDIA/cuda-rust", rev = "a0a4dc78a20e06ec90827f597e950bdc49f723e2" }
+cuda-host = { git = "https://github.com/NVIDIA/cuda-rust", rev = "a0a4dc78a20e06ec90827f597e950bdc49f723e2" }
+cuda-core = { git = "https://github.com/NVIDIA/cuda-rust", rev = "a0a4dc78a20e06ec90827f597e950bdc49f723e2" }
+cuda-bindings = { git = "https://github.com/NVIDIA/cuda-rust", rev = "a0a4dc78a20e06ec90827f597e950bdc49f723e2" }
