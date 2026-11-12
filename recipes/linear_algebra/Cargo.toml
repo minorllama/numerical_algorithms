@@ -1,0 +1,9 @@
+[package]
+name = "numerical_algorithms"
+version = "0.1.0"
+edition = "2021"
+description = "numerical algorithsm in rust and c++"
+license = "MIT"
+author = "minorllama"
+
+[dependencies]

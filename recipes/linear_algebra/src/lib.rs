@@ -1,13 +1,10 @@
 //! Classical real linear algebra, implemented independently in safe Rust.
 //! See README.md for conventions, algorithms, complexity and limitations.
 #![forbid(unsafe_code)]
-//pub mod dense;
+
 pub mod fast;
-//pub use dense::{gauss_jordan, gaussian_solve, refine, Cholesky, Lu, Qr};
-//pub use sparse::{bicg, Csr, Iteration, StopCriterion};
 use std::ops::{Index, IndexMut};
-//pub use structured::{cyclic_tridiagonal, toeplitz, tridiagonal, vandermonde, BandLu, BandMatrix};
-//pub use svd::Svd;
+
 
 #[derive(Debug, Clone, PartialEq)]
 pub enum Error {
