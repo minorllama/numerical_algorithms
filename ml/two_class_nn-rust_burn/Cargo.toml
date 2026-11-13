@@ -1,0 +1,11 @@
+[package]
+name = "two_class_nn_burn"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[features]
+cuda = ["burn/cuda"]
+
+[dependencies]
+burn = { version = "=0.22.1", default-features = false, features = ["std", "autodiff", "flex", "optim"] }
