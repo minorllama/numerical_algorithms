@@ -1,0 +1,5 @@
+[package]
+name = "optimizers"
+version = "0.1.0"
+edition = "2021"
+description = "BFGS, L-BFGS, and nonlinear conjugate gradient for smooth unconstrained minimization"
